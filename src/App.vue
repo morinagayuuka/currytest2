@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="昼ごはんは何にしよう、そうだ、米系にしよう"/>
 </template>
 
 <script>
