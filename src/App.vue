@@ -1,20 +1,38 @@
 <template>
+
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="昼ごはんは何にしよう、そうだ、米系にしよう"/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+/*HelloWorld.vue'からインポートしてる*/
+import testhello from './components/HelloWorld.vue'
+/*import {articlre} from './components/HelloWorld.vue'*/
+/*let a=new articlre();*/
+/*console.log(titletest());*/
 
+/*export default をやることによって、外部から参照できるものになる*/
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+   testhello
 }
+
+
+
+}
+
+
 </script>
 
 <style>
+body{
+ margin:0px 100px 0px 100px;
+ }
+ h1{
+   font-size: 30px;
+ }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,4 +41,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.coffeePosition{
+  padding-left:125px;
+  }
 </style>
