@@ -1,11 +1,8 @@
 <template>
-<div>
-  <testhello msg="左ボタンをクリックするとCoffeeがTeaになる"/>  
-  <img  class="coffeePosition" alt="Vue logo" src="./assets/coffee.png">
- <!--<p>test</p>
-  <h1>こんにちは、Vue CLI！</h1>-->
-  
-  </div>
+
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="昼ごはんは何にしよう、そうだ、米系にしよう"/>
+
 </template>
 
 <script>
