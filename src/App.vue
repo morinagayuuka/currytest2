@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="昼ごはんは何にしよう、そうだ、米系にしよう"/>
+  <img alt="Vue logo" src="./assets/bird.png">
+  <HelloWorld msg="hello"/>
 </template>
 
 <script>
@@ -22,5 +22,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img{
+  width:20%;
+  height:auto;
 }
 </style>
