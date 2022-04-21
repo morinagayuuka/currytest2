@@ -1,21 +1,45 @@
 <template>
+  <a href="#underjump" rel="noopener">jump↓↓↓</a>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <button v-on:click="count++">クリック {{ count }} 回目</button>
-    <!--<h1>{{ msg }}</h1>coffee watch-->
-    <!--<p>{{ msg2 }}</p>been-->
-    <!--<h1>{{ age }}</h1>0-->
 
-    <!--<img  class="coffeePosition" alt="Vue logo" src="../assets/coffee.png">-->
-     <!--<p>{{ titletest }}</p>holiday-->
-     <!--<br>
-    <p>{{ sdata }}</p><br>holiday-->
+    <p>
+      花粉症の季節になりましたね。
+      <br>のどがかゆいです
+      <br>目もかゆいです
+      <br>耳もかゆいです
     
-    <!--<p>コーヒー飲んだら時計を見よう </p>-->
-      <!-- <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>. -->
-   
-    <!--<h3>Ecosystem</h3>
+    </p>
+    <h3>Installed CLI Plugins</h3>
     <ul>
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+    </ul>
+    <h3>Essential Links</h3>
+    <ul>
+      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
+      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
+      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
+      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
+    </ul>
+     <ul>
+      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
+      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
+      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
+      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
+    </ul>
+     <ul>
+      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
+      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
+      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
+      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
+    </ul>
+    <h3>Ecosystem</h3>
+    <ul id="underjump">
+
       <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
       <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
@@ -92,6 +116,10 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: rgb(214, 122, 127);
+  text-decoration: none;
+}
+p{
+  font-weight:bold;
 }
 </style>
