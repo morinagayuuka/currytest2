@@ -4,17 +4,33 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+/*HelloWorld.vue'からインポートしてる*/
+import testhello from './components/HelloWorld.vue'
+/*import {articlre} from './components/HelloWorld.vue'*/
+/*let a=new articlre();*/
+/*console.log(titletest());*/
 
+/*export default をやることによって、外部から参照できるものになる*/
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+   testhello
 }
+
+
+
+}
+
+
 </script>
 
 <style>
+body{
+ margin:0px 100px 0px 100px;
+ }
+ h1{
+   font-size: 30px;
+ }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

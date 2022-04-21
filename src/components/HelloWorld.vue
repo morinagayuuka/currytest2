@@ -2,6 +2,7 @@
   <a href="#underjump" rel="noopener">jump↓↓↓</a>
   <div class="hello">
     <h1>{{ msg }}</h1>
+
     <p>
       花粉症の季節になりましたね。
       <br>のどがかゆいです
@@ -38,28 +39,73 @@
     </ul>
     <h3>Ecosystem</h3>
     <ul id="underjump">
+
       <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
       <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    </ul>-->
   </div>
 </template>
 
 <script>
+/*スクリプトのとこに定数を指定*/
+const sdata={ a: 1 }
+/*export default をやることによって、外部から参照できるものになる*/
 export default {
+  /*エクスポートしてる*/
   name: 'HelloWorld',
+  
+
+  //プロパティの略
   props: {
-    msg: String
-  }
+  //ストリング//
+    msg: String,
+  //タイプとナンバー//  
+    age: { type: Number,
+     default: 0,
+     }
+  },
+  /*dataとして返しているってことか*/
+  data(){
+        return{
+            msg2: "been",
+            titletest: "holiday",
+             /*dataとして定数を返しているってことか*/
+            sdata:{ a: 1 },
+             count: 0
+        }
+      }
+  
 }
+
+
+       console.log(sdata);
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+button{
+    position: relative;
+    top:491px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: rgb(65, 41, 25);
+  background: #ECECEC;
+  transition: .4s;
+}
+p{
+  display:inline-block;
+  white-space: nowrap;
+}
 h3 {
   margin: 40px 0 0;
+ 
+  white-space: nowrap;
 }
 ul {
   list-style-type: none;
